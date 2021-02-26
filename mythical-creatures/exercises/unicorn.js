@@ -13,6 +13,11 @@ class Unicorn {
       return false;
     }
   }
+
+  says(message)  {
+    return `**;* ${message} *;**`;
+
+  }
 }
 
 module.exports = Unicorn;
