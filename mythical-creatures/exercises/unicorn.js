@@ -3,8 +3,15 @@ class Unicorn {
     this.name = name;
     if (color === undefined)  {
       this.color = 'white';
-    } else
+    } else {
     this.color = color;
+  }
+}
+
+  isWhite() {
+    if (this.color !== 'white') {
+      return false;
+    }
   }
 }
 
