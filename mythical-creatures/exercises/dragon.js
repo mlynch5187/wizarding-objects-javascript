@@ -1,5 +1,5 @@
 class Dragon  {
-  constructor() {
+  constructor(name) {
 
   }
 }
