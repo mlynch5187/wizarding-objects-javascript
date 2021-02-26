@@ -16,7 +16,6 @@ class Unicorn {
 
   says(message)  {
     return `**;* ${message} *;**`;
-
   }
 }
 
