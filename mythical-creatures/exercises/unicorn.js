@@ -14,7 +14,7 @@ class Unicorn {
     }
   }
 
-  says(message)  {
+  says(message) {
     return `**;* ${message} *;**`;
   }
 }
