@@ -4,6 +4,10 @@ class Wand  {
     this.size = size
     this.core = core;
   }
+
+  cast(name)  {
+    return `Casting ${name}!`
+  }
 }
 
 module.exports = Wand;
