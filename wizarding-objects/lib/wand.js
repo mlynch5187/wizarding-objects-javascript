@@ -1,6 +1,6 @@
 class Wand  {
-  constructor() {
-
+  constructor(type) {
+    this.type = type
   }
 }
 

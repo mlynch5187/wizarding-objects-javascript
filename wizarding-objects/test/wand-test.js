@@ -7,7 +7,7 @@ describe('Wand', () => {
     assert.isFunction(Wand);
   });
 
-  it.skip('should have a type', () => {
+  it('should have a type', () => {
     const wand = new Wand('Elm');
 
     assert.equal(wand.type, 'Elm');
