@@ -13,7 +13,7 @@ describe('Pet', () => {
     assert.equal(pet.name, 'Crookshanks');
   });
 
-  it.skip('should have a type', () => {
+  it('should have a type', () => {
     const pet = new Pet('Crookshanks', 'cat');
 
     assert.equal(pet.type, 'cat');
