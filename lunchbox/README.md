@@ -7,9 +7,11 @@ In order to be able to run these tests you need to install the dependencies at t
 
 ### Running the Tests
 
-You can run the tests from the root of this repository. When you type `pwd` in the console, the last path location should be `javascript-foundations`.
-
-Run the command `npm test lunchbox/snack-test.js`. To run other tests, just replace the test file name.
+- Create a new package.json file by running 'npm init'
+- Run npm install in the root directory
+- Run `npm install chai` to install chai for testing
+- Run the tests from the root of this repository.
+- Run the command `npm test test/lunchbox-test.js`. To run other     tests, just replace the test file name.
 
 ### Make the tests pass in the following sequence:
 

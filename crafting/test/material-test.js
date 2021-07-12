@@ -55,5 +55,4 @@ describe("Material", function() {
     assert.equal(paint.calculateMaterialCost(), 35);
     assert.equal(canvas.calculateMaterialCost(), 30);
   })
-
 });
