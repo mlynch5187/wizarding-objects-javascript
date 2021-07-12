@@ -4,7 +4,11 @@ class Wizard  {
   constructor(obj) {
     obj = obj || {};
     this.name = `${obj.name}`;
-    this.pet = [];
+    this.pets = [];
+  }
+
+  adoptPet(pet)  {
+    this.pets.push(pet);
   }
 }
 
