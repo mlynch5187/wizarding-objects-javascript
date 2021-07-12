@@ -3,7 +3,7 @@ const Wand = require('../lib/wand');
 
 describe('Wand', () => {
 
-  it.skip('should be a function', () => {
+  it('should be a function', () => {
     assert.isFunction(Wand);
   });
 
