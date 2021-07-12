@@ -5,7 +5,7 @@ const Wizard = require('../lib/wizard')
 
 describe('Wizard', () => {
 
-  it.skip('should have a name', () => {
+  it('should have a name', () => {
     const hermyown = new Wizard({ name: 'Hermione'});
     const wonwon = new Wizard({name: 'Ron'});
 
@@ -13,7 +13,7 @@ describe('Wizard', () => {
     assert.equal(wonwon.name, 'Ron');
   });
 
-  it.skip('should have a pet', () => {
+  it('should have a pet', () => {
     const wizard = new Wizard({name: 'Hermione'});
     const pet = new Pet('Crookshanks', 'cat');
 
